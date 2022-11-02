@@ -234,11 +234,19 @@
 <!--             onsubmit="sendEmail(); reset(); return false;" -->
           <form action="https://send.pageclip.co/IRh9Mkz9F0FuUU9z9AzHyaFUOrj1xtjs/riya-johar-form" class="pageclip-form" method="post">
             <h3>LET'S CONNECT</h3>
-            <input type="text"  id="name" placeholder="Your name" required>
+                <input type="text" name="name" value="Roscoe Jones" />
+<!--             <input type="text"  id="name" placeholder="Your name" required>
             <input type="email"  id="email" placeholder="Email id" required>
             <input type="text"  id="phone"
             placeholder="Phone-Number" required>
-            <textarea  id="message"  rows="4" placeholder="Purpose" required></textarea>
+            <textarea  id="message"  rows="4" placeholder="Purpose" required></textarea> -->
+              
+               <input type="email" name="email" value="bob@omg.com"/>
+
+  <!-- This will be used in the email's subject. Must have name="subject" -->
+  <input type="text" name="subject" value="Email subject"/>
+
+  <textarea name="body">Email body</textarea>
             <button  type="submit" class="pageclip-form__submit"><span>Send</span></button>
           </form>  
             
