@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 <body>
    
@@ -228,7 +229,8 @@
     <!-- contact section -->
     <section class="contact" id="contact">
         <div class="container">
-          <form onsubmit="sendEmail(); reset(); return false;">
+<!--             onsubmit="sendEmail(); reset(); return false;" -->
+          <form  action="https://send.pageclip.co/IRh9Mkz9F0FuUU9z9AzHyaFUOrj1xtjs" class="pageclip-form" method="post">
             <h3>LET'S CONNECT</h3>
             <input type="text"  id="name" placeholder="Your name" required>
             <input type="email"  id="email" placeholder="Email id" required>
@@ -260,5 +262,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
